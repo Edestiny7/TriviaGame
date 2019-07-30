@@ -1,0 +1,46 @@
+body {
+    /* Full height */
+    height: 100%;
+    /* Full width */
+    width: 100%;
+    /* Background image */
+    background: url("../images/6689.jpg") no-repeat center center fixed;
+    /* Center and scale the image nicely */
+    background-size: cover;
+}
+
+
+/* Style text to make it readable from background */
+
+.displayText {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
+
+/* Style credit text for photo used as background image */
+
+#credit {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 16px;
+    padding-right: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.button {
+    background-color: tan;
+    /* brown */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
