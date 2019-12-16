@@ -1,11 +1,11 @@
 # TriviaGame
-This is a front end game application built with Bootstrap & jQuery for dynamic responsiveness utilizing a trivia API.
+This is a front end game application built with Bootstrap & jQuery for dynamic responsiveness.
 
 # How to Play
-You are provided with ten trivia question to answer in 120 seconds.  If you finish early, you can click the Done button and your results are displayed.  Otherwise, your results are displayed when the timer runs out.  Good luck!
+You are provided with ten music trivia questions to answer in 10 seconds each, with immediate feedback given.  Final tallied results are displayed after the last question is answered.  Good luck!
 
 ![alt text](./assets/images/TriviaGame.JPG "Trivia game")
 
 ### [Play the Game!](https://Edestiny7.github.io/TriviaGame/)
 
-Technology: HTML5 | CSS3 | JavaScript | jQuery Bootstrap | Google Fonts | API
+Technology: HTML5 | CSS3 | JavaScript | jQuery Bootstrap | Google Fonts
