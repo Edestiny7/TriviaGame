@@ -6,7 +6,7 @@ $(document).ready(function(){
     $(document).on('click' , '.option', trivia.guessChecker);
 })
   
-var trivia = {
+let trivia = {
     // music trivia properties
     correct: 0,
     incorrect: 0,
