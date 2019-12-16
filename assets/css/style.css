@@ -18,19 +18,10 @@ main {
     padding:5px;
 }
 
-#questionDiv {
-	display: none;
-}
-
-#answerDiv {
-	display: none;
-}
-
 /* Style text to make it readable from background */
-
 .displayText {
     color: white;
-    display: flex;
+ /*    display: flex; */
     justify-content: space-around;
     align-items: center;
     text-shadow: 2px 2px 4px #000000;
@@ -57,7 +48,7 @@ main {
     font-family: 'Julius Sans One', sans-serif;
 }
 
-#buttonCSS {
+.buttonCSS {
     background-color: #634b1d;
     border-color:#8a6a28;
     /* brown */
@@ -75,27 +66,10 @@ main {
     margin-bottom:20px;
 }
 
-.choice-container{
-    display:flex;
-    margin-bottom: 0.5rem;
-    width: 100%;
-    font-size: 1.8rem;
-    border: 0.1rem solid rgb(86, 165, 235, 0.25);
-    background-color:white;
-}
-
-.choice-container:hover{
-    cursor: pointer;
-    box-shadow:0 0.4rem 1.4rem 0 rgba(86,185,235, 0.5);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
-}
-.choice-prefix{
-    padding:1.5rem 2.5rem;
-    background-color: #56a5eb;
-    color:white;
-}
-
 .choice-text{
     padding: 1.5rem;
 }
+
+.last-seconds{
+    color: red;
+  }

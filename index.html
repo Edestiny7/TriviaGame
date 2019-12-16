@@ -1,67 +1,40 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Added a link to Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
-    <title>Trivia</title>
-</head>
-
-<body>
-    <main>
-        <section>
-            <container class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h1 class="displayText">Trivia</h1>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    
+        <!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap">
+        <title>Music Trivia</title>
+    </head>
+    <body>
+        <main>
+            <section>
+                <container class="container trivia-view">
+                    <h1 class="displayText">Music Trivia</h1>
+                        <div id="game">
+                            <h3 id="remaining-time" class="lead displayText">Remaining Time: <span id="timer"></span></h3>
+                            <p id="question" class="lead displayText"></h3>
+                        </div>
+                        <div id="results" class="displayText">
+                        </div>
+                    <div class="row">
+                        <div id="choices" class="col-12 text-center">
+                            <button id="start" class="buttonCSS" aria-pressed="true">Start</button>
+                            <div id="options"></div>
+                        </div>
                     </div>
+                </container>
+            </section>
+            <footer class="footer">
+                <div class="col-12 text-right">
+                    <a id="credit" href="http://www.freepik.com">Designed by Kjpargeter / Freepik</a>
                 </div>
-
-
-                <div class="row">
-                    <div class="col-12">
-                        <h3 class="displayText" id="timer">
-                        </h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <h4 class="displayText" id="wins"></h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <h4 class="displayText" id="losses"></h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <h4 class="displayText" id="skipped"></h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <button class="button" id="buttonCSS" aria-pressed="true">Start</button>
-                    </div>
-                </div>
-
-                <!-- Triva will be placed here -->
-                <div id="trivia-view"></div>
-
-                <footer class="footer">
-                    <div class="col-12 text-right">
-                        <a id="credit" href="http://www.freepik.com">Designed by Kjpargeter / Freepik</a>
-                    </div>
-                </footer>
-
-            </container>
-        </section>
-    </main>
-</body>
-<script type="text/javascript" src="./assets/javascript/game.js"></script>
-
+            </footer>
+        </main>
+    </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js"></script>
 </html>
